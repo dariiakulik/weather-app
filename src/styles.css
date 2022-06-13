@@ -1,6 +1,8 @@
 body {
     font-family: arial, sans-serif;
+    background-image: linear-gradient(90deg,  #f7e980 50%,  #00C0FF 100%);
   }
+
   h1 {
     color: rgb(135, 135, 135);
     font-size: 24px;
@@ -19,6 +21,7 @@ body {
     height: 19px;
     line-height: 1;
     list-style: none;
+    text-transform: capitalize;
   }
   .weather-app {
     border: 1px solid #dadde1;
@@ -26,8 +29,14 @@ body {
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
+    overflow: hidden;
+
   }
-  input {
+  .weather-app1 {
+    background-color: #e0d8a0;
+  }
+  
+  #search {
     border: 1px solid #97bae7;
     padding: 7px;
     padding-left: 20px;
@@ -37,6 +46,10 @@ body {
     background: lightblue;
     border-radius: 10px;
   }
+  #search:hover{
+    background-image: linear-gradient(90deg,  #f7e980 50%,  #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+ }
   button {
     border: 1px solid #5f6266;
     padding: 7px;
@@ -47,6 +60,10 @@ body {
     background: lightblue;
     border-radius: 10px;
   }
+  button:hover{
+    background-image: linear-gradient(90deg,  #f0cc2b 0%,  #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+ }
   .weather-icon {
     width: 64px;
     height: 64px;
