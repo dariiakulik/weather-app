@@ -27,10 +27,22 @@ body {
     max-width: 600px;
     border-radius: 10px;
   }
+  input {
+    border: 1px solid #97bae7;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:  1px;
+    max-width: 600px;
+    background: lightblue;
+    border-radius: 10px;
+  }
   button {
     border: 1px solid #5f6266;
     padding: 7px;
-    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:  -20px;
     max-width: 600px;
     background: lightblue;
     border-radius: 10px;
