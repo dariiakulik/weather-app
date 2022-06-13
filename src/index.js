@@ -126,11 +126,7 @@ function displayForecast(response) {
   }
 
   
-  function handleSubmit(event) {
-    event.preventDefault();
-    let city = document.querySelector("#search-input").value;
-    searchCity(city);
-  }
+ 
   
   function searchPosition(position) {
     let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
