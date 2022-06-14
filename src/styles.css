@@ -41,7 +41,7 @@ body {
     padding: 7px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left:  1px;
+    margin-left:  -10px;
     max-width: 600px;
     background: lightblue;
     border-radius: 10px;
@@ -55,7 +55,7 @@ body {
     padding: 7px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left:  -20px;
+    margin-left:  -50px;
     max-width: 600px;
     background: lightblue;
     border-radius: 10px;
